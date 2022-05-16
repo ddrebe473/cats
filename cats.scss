@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    font-family: verdana, arial, helvetica;
+}
+
+.title {
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+}
+
+.allCats {
+    display: flex;
+    flex-direction: row;
+}
+
+.family {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+
+.children {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.motherHeader {
+    width: 100%;
+    text-align: center;
+}
+
+.mother {
+    width: 100%;
+}
+
+.kitty {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.kittyHeader {
+    
+}
+
+.kittyImg {
+    
+}
